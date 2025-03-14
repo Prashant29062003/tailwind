@@ -50,7 +50,7 @@ To implement **multiple themes** dynamically using CSS variables, we use Tailwin
 
 ---
 
-## **2️Extend Tailwind Colors Using CSS Variables**
+## **2️ Extend Tailwind Colors Using CSS Variables**
 Tailwind doesn’t directly recognize CSS variables, so we need to **extend** Tailwind’s theme configuration.
 
 ### **Modify `tailwind.config.js`**
@@ -141,7 +141,7 @@ main();
 
 ---
 
-## **4️Ensuring Tailwind Doesn’t Purge Dynamic Classes**
+## **4️ Ensuring Tailwind Doesn’t Purge Dynamic Classes**
 Since Tailwind **purges unused classes**, we must **whitelist theme colors**.
 
 ### **Add This to `tailwind.config.js`**
@@ -154,7 +154,7 @@ OR manually add these classes in your HTML file inside a hidden div.
 
 ---
 
-## **5️Example HTML Structure**
+## **5️ Example HTML Structure**
 ```html
 <!DOCTYPE html>
 <html lang="en">
