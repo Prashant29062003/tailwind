@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <style>
+    .active{
+      background-color: rgb(132, 0, 255);
+      color: #fff;
+    }
+  </style>
+</head>
+<body class="static m-auto">
+    <nav class="items-center justify-between px-2 py-2 w-full hidden md:flex bg-purple-300">
+      <div id="logo" class="text-2xl font-bold"><a href="#">Prashant</a></div>
+        <ul class="flex justify-end">
+          <li class="px-2 mx-2 p-2 cursor-pointer rounded-lg hover:bg-purple-800 hover:text-white active">Home</li>
+          <li class="px-2 mx-2 p-2 cursor-pointer rounded-lg hover:bg-purple-800 hover:text-white">Catalogue</li>
+          <li class="px-2 mx-2 p-2 cursor-pointer rounded-lg hover:bg-purple-800 hover:text-white">About</li>
+          <li class="px-2 mx-2 p-2 cursor-pointer rounded-lg hover:bg-purple-800 hover:text-white bg-purple-800 text-white flex">Sign In <img src="/img/login_FILL0_wght400_GRAD0_opsz48.svg" class="h-6 invert ml-2" alt=""></li>
+        </ul>
+      </nav>
+      
+      
+      <div id="tailwind-config">
+        <!-- typography -->
+
+        
+        <div class="min-w-72 m-2 border cursor-pointer transition-colors hover:text-white hover:bg-slate-500 border-slate-500 py-2 px-4 text-left rounded-xl shadow-2xl hover:shadow-blue-500">
+          <!-- tracking - letter-spacing -->
+          <h1 class="text-xl tracking-wide hover:underline ">Hello Tailwind</h1>
+          <!-- leading - line-height -->
+          <p class="leading-6 font-semibold border-l-2 pl-1 border-green-600 my-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam voluptatem nihil perspiciatis recusandae explicabo, laboriosam, quaerat impedit, mollitia maxime qui aut ullam ea aperiam labore quasi doloribus? Illum, excepturi vitae pariatur atque unde molestiae commodi porro perspiciatis labore nobis obcaecati eligendi exercitationem similique modi quibusdam ipsa id reiciendis officiis mollitia blanditiis magnam est ratione laboriosam. Tempora.</p>
+
+          <h2 class="capitalize border-l-2 pl-1 border-red-600 mb-2">hello World</h2>
+
+          <form class="flex  w-full">
+            <input type="text" class="w-3/4 border-slate-700 border-l border-y pl-2 placeholder-red-600 focus:outline-none text-black" placeholder="your name">
+            <button class="btn btn-success" type="submit">Click me</button>
+            <button class="btn btn-danger" type="submit">Click me</button>
+          </form>
+        </div>
+
+
+        <div class="md:flex md:flex-wrap">
+          <div class="bg-pink-400 p-4 md:w-1/2 xl:w-1/4 md:bg-fuchsia-500">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro enim vero unde illo cumque reiciendis modi exercitationem eos perferendis, dolorum, quidem aspernatur eum veniam sint corrupti, dolor ex non? Necessitatibus explicabo veritatis a provident.
+          </div>
+          <div class="bg-green-400 p-4 md:w-1/2 xl:w-1/4">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro enim vero unde illo cumque reiciendis modi exercitationem eos perferendis, dolorum, quidem aspernatur eum veniam sint corrupti, dolor ex non? Necessitatibus explicabo veritatis a provident.
+          </div>
+          <div class="bg-yellow-400 p-4 md:w-1/2 xl:w-1/4">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro enim vero unde illo cumque reiciendis modi exercitationem eos perferendis, dolorum, quidem aspernatur eum veniam sint corrupti, dolor ex non? Necessitatibus explicabo veritatis a provident.
+          </div>
+          <div class="bg-purple-400 p-4 md:w-1/2 xl:w-1/4">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro enim vero unde illo cumque reiciendis modi exercitationem eos perferendis, dolorum, quidem aspernatur eum veniam sint corrupti, dolor ex non? Necessitatibus explicabo veritatis a provident.
+          </div>
+        </div>
+
+
+
+      </div>
+
+      <!-- custom theme -->
+
+      <div id="theme-container" class="container mx-auto ">
+        
+      </div>
+
+
+      <script src="./index.js"></script>
+</body>
+</html>
