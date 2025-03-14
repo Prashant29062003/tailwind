@@ -1,4 +1,3 @@
-Here’s a **detailed Tailwind CSS theme setup in Markdown format** based on what you’ve learned so far. This will serve as a future reference for your notes.  
 
 ---
 
@@ -185,12 +184,10 @@ OR manually add these classes in your HTML file inside a hidden div.
 
 ---
 
-## ** Final Thoughts**
-✅ Uses **CSS variables** for themes.  
-✅ Works with **Tailwind's extend & safelist**.  
-✅ Saves the theme **even after page reload**.  
-✅ **Lightweight & efficient.** 🚀  
+## **Final Thoughts**
+- Uses **CSS variables** for themes.  
+- Works with **Tailwind's extend & safelist**.  
+- Saves the theme **even after page reload**.  
+- **Lightweight & efficient.** 🚀  
 
 ---
-
-Now, whenever you need **theme switching in Tailwind**, just follow these **step-by-step notes**! 🔥
